@@ -1,0 +1,17 @@
+CREDIT CARD FRAUD DETECTION PROJECT
+Fraud detection is a problem that is applicable in many industries including banks and financial sectors, insurance, government agencies and law enforcement.
+
+Using a dataset of of nearly 28,500 credit card transactions and couple of machine learning algorithms, 
+I was able to identify transactions with a high probability of being credit card fraud. 
+
+I built and deployed two machine learning algorithms
+1. Logical Regression Algorithm
+2. Random Forest Algorithm
+
+As earlier stated, Credit card fraud is a major problem that affects financial institutions and cardholders worldwide. 
+According to a report by the Federal Trade Commission, credit card fraud was the most common form of identity theft reported by consumers in the United States. 
+
+Hence,the aim to build a machine learning model that can detect fraudulent credit card transactions with high accuracy by using a dataset containing credit card transactions made by European cardholders. 
+Although the dataset is highly imbalanced, with only a small fraction of the transactions being fraudulent. I explored the dataset, preprocessed the data, and trained the machine learning models to detect fraudulent transactions. 
+
+Conclusively, I evaluated the performance of the models using various metrics such as accuracy, precision, recall, and F1 score.
