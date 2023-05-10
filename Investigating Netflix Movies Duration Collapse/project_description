@@ -1,0 +1,6 @@
+In this project, I implemented powerful data analysis and visualization capabilities of the pandas and matplotlib libraries in Python to delve into trends in Netflix movies.
+I started by creating a Python dictionary of movie durations from 2011 to 2020, which I then converted into a pandas DataFrame and visualized using a line plot.
+
+I then expanded the analysis by loading a CSV file containing information on Netflix movies, and explored how movie trends have changed over time, as well as the impact of different genres on movie durations. 
+
+The code is fully documented with comments and can be easily adapted to analyze other datasets related to the entertainment industry
