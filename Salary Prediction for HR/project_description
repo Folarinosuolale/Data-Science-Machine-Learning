@@ -1,0 +1,20 @@
+This Python project is an implementation of polynomial regression to predict salaries based on position levels. 
+
+The dataset used is 'Position_Salaries.csv' which contains information about employee positions and their respective salaries.
+
+The project starts by importing necessary libraries such as NumPy, Matplotlib, and Pandas. 
+
+The dataset is then imported and split into two variables, X and y, where X contains position level and y contains salaries.
+
+Next, a linear regression model is trained on the entire dataset to establish a baseline model. 
+Afterward, a polynomial regression model of degree 4 is trained on the dataset to see if the model can fit the data better than the linear model.
+
+The polynomial model is then visualized using Matplotlib to compare its accuracy with that of the linear model. 
+
+The polynomial model's prediction for new data is made by inputting a position level of 6.5.
+
+The resulting graphs and predictions are displayed to give a clear understanding of the polynomial regression model's capabilities in predicting salaries based on position levels.
+
+The polynomial model's prediction was evaluated and it convincingly provides a better prediction of salary based on the position level of an employee.
+
+This project could be used by the HR department of any firm to allocated right salary range to new recruits based on the position level without making a mistake.
