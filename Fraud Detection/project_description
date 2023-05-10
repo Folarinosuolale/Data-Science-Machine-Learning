@@ -15,3 +15,5 @@ Hence,the aim to build a machine learning model that can detect fraudulent credi
 Although the dataset is highly imbalanced, with only a small fraction of the transactions being fraudulent. I explored the dataset, preprocessed the data, and trained the machine learning models to detect fraudulent transactions. 
 
 Conclusively, I evaluated the performance of the models using various metrics such as accuracy, precision, recall, and F1 score.
+
+This project can be extended to include real-time fraud detection using web applications, mobile apps, or other platforms
