@@ -1,4 +1,4 @@
-Stock price prediction is a common application of machine learning and data science. 
+Stock price prediction is a common application of machine learning and data science.  
 It involves using historical stock market data to develop models that can forecast future stock prices. 
 The goal of this project is to predict future stock prices for a given company using a Random Forest Regression model. 
 The project is implemented using Python and several popular libraries, including NumPy, Pandas, Scikit-learn, and Matplotlib.
