@@ -1,0 +1,11 @@
+This project is focused on performing a multiple linear regression analysis on a dataset of 50 startups, examining the relationship between various factors and their success. 
+
+The dataset is loaded from a CSV file and categorical data is encoded using one-hot encoding. 
+
+The data is then split into training and test sets, and a multiple linear regression model is trained on the training set. 
+
+Predictions are made on the test set and the results are printed. 
+
+The project also uses backward elimination to determine which variables have the most significant impact on startup success, and outputs the results of the analysis using the statsmodels library. 
+
+This project can serve as a starting point for further analysis of startup success and the factors that influence it for possible investors.
