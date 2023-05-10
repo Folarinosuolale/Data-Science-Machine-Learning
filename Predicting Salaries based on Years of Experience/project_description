@@ -1,0 +1,8 @@
+This project involves building a simple linear regression model to predict salaries based on years of experience. 
+The project uses the pandas, numpy, and matplotlib libraries in Python to import and manipulate a dataset of salary and experience data. 
+
+The dataset is split into a training set and a test set using the train_test_split method from scikit-learn, and a linear regression model is trained on the training set using the LinearRegression method also from scikit-learn. 
+
+The model is then used to predict salaries on the test set, and the results are visualized using scatter plots and line plots with matplotlib. 
+
+This project can serve as a starting point for more complex regression analyses and machine learning projects.
