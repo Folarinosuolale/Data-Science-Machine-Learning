@@ -1,0 +1,18 @@
+This project provides an implementation of the Support Vector Machine (SVM) algorithm to classify whether a user will purchase a product on a social networking site based on age and estimated salary. 
+
+The dataset used for this project is "Social_Network_Ads.csv".
+
+I started this project by importing the required libraries such as numpy, pandas, matplotlib, sklearn, etc. 
+The dataset is then imported using pandas and is split into training and test sets. 
+
+The features are scaled using StandardScaler. 
+The SVM classifier with a linear kernel is trained on the training set. 
+
+The model then predicts whether a user will purchase a product based on age and estimated salary. 
+The predicted results are compared to the actual results using the confusion matrix and accuracy score. 
+
+Finally, the results are visualized using matplotlib.
+A real-life usage instance of this project could be in the field of marketing, where companies use this type of algorithm to target potential customers based on their demographic data and previous buying behavior. 
+For example, a company selling a high-end product might use this algorithm to identify potential customers with high incomes and a history of purchasing similar products. 
+
+The company can then target these potential customers with personalized marketing messages to increase the chances of making a sale.
