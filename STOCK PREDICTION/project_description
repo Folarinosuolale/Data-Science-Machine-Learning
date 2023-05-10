@@ -1,13 +1,13 @@
-Stock price prediction is a common application of machine learning and data science.  
-It involves using historical stock market data to develop models that can forecast future stock prices.
-The goal of this project is to predict future stock prices for a given company using a Random Forest Regression model. 
+Stock price prediction is a widely popular application of machine learning and data science. 
+
+In this project, the aim is to predict the future stock prices of a given company using a Random Forest Regression model. 
 The project is implemented using Python and several popular libraries, including NumPy, Pandas, Scikit-learn, and Matplotlib.
 
-The project starts by loading a dataset from a CSV file that contains historical stock market data for a specific company. 
+To begin with, I loaded a dataset from a CSV file containing historical stock market data for the said company. 
 The dataset is then preprocessed by normalizing the stock price values using a MinMaxScaler to ensure that all values fall within a specified range. 
 The data is then split into training and testing sets, with the training set used to train the model and the testing set used to evaluate the model's performance.
 
-The Random Forest Regression model is then created and trained using the training data. 
+Next,the Random Forest Regression model is created and trained using the training data. 
 The model uses the previous 60 days' stock prices as inputs and predicts the next day's stock price. 
 The number of estimators in the model is set to 100 to provide a more accurate prediction.
 
@@ -18,3 +18,5 @@ The root mean squared error (RMSE) is calculated to measure the model's accuracy
 Finally, the predicted and actual stock prices are plotted against each other using Matplotlib to visualize the model's performance. 
 The resulting plot provides a clear visual representation of the model's ability to predict future stock prices.
 
+NB: By developing a reliable stock market price prediction model, traders and investors can make more informed decisions, leading to improved investment returns. 
+This project can be further enhanced by exploring different algorithms, using more data, and incorporating additional features such as news sentiment analysis or market indices to enhance the accuracy of the model.
